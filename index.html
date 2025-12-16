@@ -927,13 +927,11 @@
   opacity: 0.85;
   text-align: center;
 ">
-  by Dr Ahmad Akmal Bin Ahmad Nizam, 2025
+  <div>by Dr Ahmad Akmal Bin Ahmad Nizam, 2025</div>
+  <div id="buildInfo" style="margin-top: 4px; font-size: 11px; opacity: 0.9;">
+    Build updated: Loading…
+  </div>
 </footer>
-<div id="buildInfo" style="
-  position: fixed; right: 10px; bottom: 10px; z-index: 10000;
-  font-size: 11px; opacity: 0.85; padding: 6px 10px; border-radius: 10px;
-  pointer-events: none; user-select: none; background: rgba(255,255,255,0.75);
-">Loading…</div>
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     const el = document.getElementById("buildInfo");
@@ -944,5 +942,6 @@
 </script>
 </body>
 </html>
+
 
 
